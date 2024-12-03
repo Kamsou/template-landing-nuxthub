@@ -2,10 +2,10 @@
 
 A minimal [Nuxt](https://nuxt.com) starter deployed on the Edge using [NuxtHub](https://hub.nuxt.com).
 
-https://hello.nuxt.dev
+https://aucreno.pages.dev/
 
-<a href="https://hello.nuxt.dev">
-<img src="https://github.com/nuxt-hub/hello-edge/assets/904724/99d1bd54-ef7e-4ac9-83ad-0a290f85edcf" alt="Hello World template for NuxtHub" />
+<a href="https://aucreno.pages.dev/">
+<img src="/public/capture.png" alt="Capture" />
 </a>
 
 ## Features
@@ -14,13 +14,14 @@ https://hello.nuxt.dev
 - ESLint setup
 - Ready to add a database, blob and KV storage
 - One click deploy on 275+ locations for free
+- Tailwind
 
 ## Setup
 
 Make sure to install the dependencies with [pnpm](https://pnpm.io/installation#using-corepack):
 
 ```bash
-pnpm install
+yarn
 ```
 
 You can update the main text displayed by creating a `.env`:
@@ -34,7 +35,7 @@ NUXT_PUBLIC_HELLO_TEXT="Hello my world!"
 Start the development server on `http://localhost:3000`:
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 ## Production
@@ -42,7 +43,7 @@ pnpm dev
 Build the application for production:
 
 ```bash
-pnpm build
+yarn build
 ```
 
 ## Deploy
